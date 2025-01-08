@@ -1,8 +1,8 @@
 {% extends 'home.html' %}
 
 {% block content %}
-<link rel="stylesheet" href="{{ url_for('static', filename='report.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='inquiry_write_go.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/report.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/inquiry_write_go.css') }}">
 
 <h1>문의 사항 보기</h1>
 <table class="inquiry-table">
@@ -36,7 +36,7 @@
                     {% elif inquiry.state == 'interruption' %}
                         중단
                     {% elif inquiry.state == 'custody' %}
-                        보관
+                        보류
                     {% else %}
                         알 수 없음
                     {% endif %}
@@ -50,7 +50,7 @@
                             <option value="progress" {% if inquiry.state == 'progress' %}selected{% endif %}>진행중</option>
                             <option value="complete" {% if inquiry.state == 'complete' %}selected{% endif %}>완료</option>
                             <option value="interruption" {% if inquiry.state == 'interruption' %}selected{% endif %}>중단</option>
-                            <option value="custody" {% if inquiry.state == 'custody' %}selected{% endif %}>보관</option>
+                            <option value="custody" {% if inquiry.state == 'custody' %}selected{% endif %}>보류</option>
                         </select>
                         <button type="submit">수정</button>
                     </form>
