@@ -18603,3 +18603,201 @@ FROM inquiry LEFT OUTER JOIN users AS users_1 ON users_1.name = inquiry.user_id]
 2025-01-08 17:02:50,996:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
 2025-01-08 17:02:53,658:WARNING: * Debugger is active!
 2025-01-08 17:02:53,664:INFO: * Debugger PIN: 652-156-585
+2025-01-09 17:49:17,393:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-09 17:49:21,094:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-09 17:49:21,094:INFO:[33mPress CTRL+C to quit[0m
+2025-01-09 17:49:21,097:INFO: * Restarting with stat
+2025-01-09 17:49:28,483:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-09 17:49:34,303:WARNING: * Debugger is active!
+2025-01-09 17:49:34,310:INFO: * Debugger PIN: 142-677-485
+2025-01-09 17:49:34,367:INFO:127.0.0.1 - - [09/Jan/2025 17:49:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-09 17:49:34,371:INFO:·Î±×ÀÎ ½Ãµµ
+2025-01-09 17:49:34,420:INFO:127.0.0.1 - - [09/Jan/2025 17:49:34] "GET /login HTTP/1.1" 200 -
+2025-01-09 17:49:34,700:INFO:127.0.0.1 - - [09/Jan/2025 17:49:34] "GET /static/css/home.css HTTP/1.1" 200 -
+2025-01-09 17:49:41,797:INFO:127.0.0.1 - - [09/Jan/2025 17:49:41] "[32mGET /entry-recognition HTTP/1.1[0m" 302 -
+2025-01-09 17:49:41,803:INFO:·Î±×ÀÎ ½Ãµµ
+2025-01-09 17:49:41,804:INFO:127.0.0.1 - - [09/Jan/2025 17:49:41] "GET /login HTTP/1.1" 200 -
+2025-01-09 17:49:41,819:INFO:127.0.0.1 - - [09/Jan/2025 17:49:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:52,357:INFO:·Î±×ÀÎ ½Ãµµ
+2025-01-09 17:51:52,635:INFO:127.0.0.1 - - [09/Jan/2025 17:51:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-09 17:51:52,641:INFO:127.0.0.1 - - [09/Jan/2025 17:51:52] "GET / HTTP/1.1" 200 -
+2025-01-09 17:51:52,664:INFO:127.0.0.1 - - [09/Jan/2025 17:51:52] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:53,984:INFO:127.0.0.1 - - [09/Jan/2025 17:51:53] "GET /entry-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:54,005:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,016:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,017:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,049:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,450:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "GET /exit-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:54,471:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,472:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,477:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:54,483:INFO:127.0.0.1 - - [09/Jan/2025 17:51:54] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,770:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "GET /light-vehicle-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:56,790:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,806:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,808:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:56,808:INFO:127.0.0.1 - - [09/Jan/2025 17:51:56] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,035:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "GET /disabled-vehicle-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:57,054:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,068:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,072:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,072:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,354:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "GET /illegal-parking-recognition HTTP/1.1" 200 -
+2025-01-09 17:51:57,375:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,377:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/video.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,384:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/css/exit_btn.css HTTP/1.1[0m" 304 -
+2025-01-09 17:51:57,390:INFO:127.0.0.1 - - [09/Jan/2025 17:51:57] "[36mGET /static/js/webcam.js HTTP/1.1[0m" 304 -
+2025-01-09 17:52:12,900:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "GET /search HTTP/1.1" 200 -
+2025-01-09 17:52:12,922:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:12,925:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:12,926:INFO:127.0.0.1 - - [09/Jan/2025 17:52:12] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:15,850:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "GET /search-results HTTP/1.1" 200 -
+2025-01-09 17:52:15,874:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:15,877:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:15,878:INFO:127.0.0.1 - - [09/Jan/2025 17:52:15] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:16,480:INFO:127.0.0.1 - - [09/Jan/2025 17:52:16] "GET /alerts HTTP/1.1" 200 -
+2025-01-09 17:52:16,503:INFO:127.0.0.1 - - [09/Jan/2025 17:52:16] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:16,504:INFO:127.0.0.1 - - [09/Jan/2025 17:52:16] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:53,736:INFO:127.0.0.1 - - [09/Jan/2025 17:52:53] "GET /settings HTTP/1.1" 200 -
+2025-01-09 17:52:53,761:INFO:127.0.0.1 - - [09/Jan/2025 17:52:53] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:52:53,762:INFO:127.0.0.1 - - [09/Jan/2025 17:52:53] "[36mGET /static/css/setting.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:12,756:INFO:0°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2025-01-09 17:53:12,791:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "GET /inquiry HTTP/1.1" 200 -
+2025-01-09 17:53:12,820:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:12,822:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:12,822:INFO:127.0.0.1 - - [09/Jan/2025 17:53:12] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:41,877:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "GET /work HTTP/1.1" 200 -
+2025-01-09 17:53:41,907:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:41,909:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-09 17:53:41,910:INFO:127.0.0.1 - - [09/Jan/2025 17:53:41] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:18,639:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "GET /search-results HTTP/1.1" 200 -
+2025-01-09 17:54:18,661:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:18,670:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:18,671:INFO:127.0.0.1 - - [09/Jan/2025 17:54:18] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:37,962:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "GET /search HTTP/1.1" 200 -
+2025-01-09 17:54:37,990:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:37,990:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-09 17:54:37,990:INFO:127.0.0.1 - - [09/Jan/2025 17:54:37] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:27:51,380:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-16 17:27:54,843:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-16 17:27:54,843:INFO:[33mPress CTRL+C to quit[0m
+2025-01-16 17:27:54,846:INFO: * Restarting with stat
+2025-01-16 17:28:02,102:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-16 17:28:04,777:WARNING: * Debugger is active!
+2025-01-16 17:28:04,785:INFO: * Debugger PIN: 123-224-856
+2025-01-16 17:28:04,887:INFO:127.0.0.1 - - [16/Jan/2025 17:28:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-16 17:28:04,887:INFO:127.0.0.1 - - [16/Jan/2025 17:28:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-16 17:28:04,892:INFO:·Î±×ÀÎ ½Ãµµ
+2025-01-16 17:28:04,936:INFO:127.0.0.1 - - [16/Jan/2025 17:28:04] "GET /login HTTP/1.1" 200 -
+2025-01-16 17:28:05,040:INFO:127.0.0.1 - - [16/Jan/2025 17:28:05] "GET /static/css/home.css HTTP/1.1" 200 -
+2025-01-16 17:28:14,413:INFO:·Î±×ÀÎ ½Ãµµ
+2025-01-16 17:28:14,687:INFO:127.0.0.1 - - [16/Jan/2025 17:28:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-16 17:28:14,694:INFO:127.0.0.1 - - [16/Jan/2025 17:28:14] "GET / HTTP/1.1" 200 -
+2025-01-16 17:28:14,720:INFO:127.0.0.1 - - [16/Jan/2025 17:28:14] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:18,851:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "GET /search HTTP/1.1" 200 -
+2025-01-16 17:28:18,876:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:18,892:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:18,893:INFO:127.0.0.1 - - [16/Jan/2025 17:28:18] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:28:20,052:INFO:127.0.0.1 - - [16/Jan/2025 17:28:20] "GET / HTTP/1.1" 200 -
+2025-01-16 17:28:20,075:INFO:127.0.0.1 - - [16/Jan/2025 17:28:20] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:07,440:INFO:127.0.0.1 - - [16/Jan/2025 17:35:07] "GET /settings HTTP/1.1" 200 -
+2025-01-16 17:35:07,460:INFO:127.0.0.1 - - [16/Jan/2025 17:35:07] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:07,477:INFO:127.0.0.1 - - [16/Jan/2025 17:35:07] "[36mGET /static/css/setting.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:07,975:INFO:0°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2025-01-16 17:35:08,009:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "GET /inquiry HTTP/1.1" 200 -
+2025-01-16 17:35:08,029:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:08,036:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:08,046:INFO:127.0.0.1 - - [16/Jan/2025 17:35:08] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,046:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "GET /security HTTP/1.1" 200 -
+2025-01-16 17:35:09,065:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,074:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,081:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/security.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,472:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "GET /work HTTP/1.1" 200 -
+2025-01-16 17:35:09,493:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,503:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:09,512:INFO:127.0.0.1 - - [16/Jan/2025 17:35:09] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:10,741:INFO:127.0.0.1 - - [16/Jan/2025 17:35:10] "GET /alerts HTTP/1.1" 200 -
+2025-01-16 17:35:10,761:INFO:127.0.0.1 - - [16/Jan/2025 17:35:10] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:10,770:INFO:127.0.0.1 - - [16/Jan/2025 17:35:10] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:11,517:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "GET /search-results HTTP/1.1" 200 -
+2025-01-16 17:35:11,545:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:11,546:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:11,562:INFO:127.0.0.1 - - [16/Jan/2025 17:35:11] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:12,986:INFO:127.0.0.1 - - [16/Jan/2025 17:35:12] "GET /work HTTP/1.1" 200 -
+2025-01-16 17:35:13,015:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,015:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,016:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,687:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "GET /search HTTP/1.1" 200 -
+2025-01-16 17:35:13,707:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,715:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:13,715:INFO:127.0.0.1 - - [16/Jan/2025 17:35:13] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:32,495:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "GET /search HTTP/1.1" 200 -
+2025-01-16 17:35:32,509:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:32,515:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:32,517:INFO:127.0.0.1 - - [16/Jan/2025 17:35:32] "[36mGET /static/css/view.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:33,551:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "GET /search-results HTTP/1.1" 200 -
+2025-01-16 17:35:33,579:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:33,582:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "[36mGET /static/css/search_results.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:33,582:INFO:127.0.0.1 - - [16/Jan/2025 17:35:33] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-16 17:35:34,645:INFO:127.0.0.1 - - [16/Jan/2025 17:35:34] "GET / HTTP/1.1" 200 -
+2025-01-16 17:35:34,664:INFO:127.0.0.1 - - [16/Jan/2025 17:35:34] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:25:58,633:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-21 09:26:02,126:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-21 09:26:02,126:INFO:[33mPress CTRL+C to quit[0m
+2025-01-21 09:26:02,129:INFO: * Restarting with stat
+2025-01-21 09:26:09,147:WARNING:Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2025-01-21 09:26:11,897:WARNING: * Debugger is active!
+2025-01-21 09:26:11,904:INFO: * Debugger PIN: 992-663-157
+2025-01-21 09:26:12,035:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-01-21 09:26:12,043:INFO:·Î±×ÀÎ ½Ãµµ
+2025-01-21 09:26:12,094:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "GET /login HTTP/1.1" 200 -
+2025-01-21 09:26:12,201:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:26:12,234:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:26:12,255:INFO:127.0.0.1 - - [21/Jan/2025 09:26:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:26:15,085:INFO:·Î±×ÀÎ ½Ãµµ
+2025-01-21 09:26:15,368:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-01-21 09:26:15,376:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "GET / HTTP/1.1" 200 -
+2025-01-21 09:26:15,399:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:26:15,420:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:26:15,422:INFO:127.0.0.1 - - [21/Jan/2025 09:26:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:18,221:INFO:0°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2025-01-21 09:27:18,245:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "GET /inquiry HTTP/1.1" 200 -
+2025-01-21 09:27:18,271:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:18,275:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:18,277:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:18,295:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:18,296:INFO:127.0.0.1 - - [21/Jan/2025 09:27:18] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:32,097:INFO:0°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2025-01-21 09:27:32,116:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "GET /inquiry HTTP/1.1" 200 -
+2025-01-21 09:27:32,138:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:32,139:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:32,142:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:32,156:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:32,157:INFO:127.0.0.1 - - [21/Jan/2025 09:27:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:33,059:INFO:0°³ÀÇ ¹®ÀÇ»çÇ×À» ºÒ·¯¿Ô½À´Ï´Ù.
+2025-01-21 09:27:33,061:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "GET /inquiry HTTP/1.1" 200 -
+2025-01-21 09:27:33,073:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:33,082:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:33,082:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[36mGET /static/css/inquiry_write_go.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:33,094:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:33,095:INFO:127.0.0.1 - - [21/Jan/2025 09:27:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:38,030:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "GET /settings HTTP/1.1" 200 -
+2025-01-21 09:27:38,054:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,054:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/setting.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,071:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:38,072:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:38,618:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "GET /security HTTP/1.1" 200 -
+2025-01-21 09:27:38,641:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,652:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,652:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[36mGET /static/css/security.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:38,671:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:38,671:INFO:127.0.0.1 - - [21/Jan/2025 09:27:38] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-01-21 09:27:39,435:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "GET /work HTTP/1.1" 200 -
+2025-01-21 09:27:39,462:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:39,470:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[36mGET /static/css/report.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:39,470:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[36mGET /static/css/back.css HTTP/1.1[0m" 304 -
+2025-01-21 09:27:39,488:ERROR:Unhandled Exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-01-21 09:27:39,488:INFO:127.0.0.1 - - [21/Jan/2025 09:27:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -

@@ -5,7 +5,7 @@
 />
 
 <div class="inquiry-container">
-  <h1>문의 사항</h1>
+  <h1>요청 사항</h1>
 
   <form
     action="{{ url_for('inquiry_write') }}"
@@ -14,18 +14,18 @@
   >
     <!-- 메시지 입력 -->
     <div class="form-group">
-      <label for="message">문의 사항 작성:</label>
+      <label for="message">요청 사항 작성:</label>
       <textarea
         id="message"
         name="message"
         rows="15"
-        placeholder="문의 내용을 입력하세요"
+        placeholder="요청 내용을 입력하세요"
       ></textarea>
     </div>
 
     <!-- 제출 버튼 -->
     <div class="form-actions">
-      <button type="submit" class="submit-button">문의 사항 제출</button>
+      <button type="submit" class="submit-button">요청 사항 제출</button>
     </div>
   </form>
 </div>
